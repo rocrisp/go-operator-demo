@@ -30,6 +30,10 @@ oc get all
 
 ![](createoperator.gif)
 
+Operator in action
+![](Operator.gif)
+
+
 
 
 
