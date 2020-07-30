@@ -1,20 +1,28 @@
 go-operator-demo
 =======================
-knowledge:
-openshift, kubernetes, go
 
+Need Knowledge of openshift, kubernetes, and go
 
 Requirements:
+
 Install [Golang](https://golang.org/doc/install)
 
 Install [operator-sdk](https://sdk.operatorframework.io/docs/install-operator-sdk/)
 
-openshift
+Install [Openshift Container Platform 4.5](https://docs.openshift.com/container-platform/4.5/welcome/index.html)
 
-Setup go environment
-Clone this repository to your local worksspace
-run operator-sdk local
-apply cr.yaml file
+Run Operator sdk locally
+```bash
+git clone https://github.com/rocrisp/go-operator-demo.git
+cd go-operator-demo
+OPERATOR_NAME=cakephp operator-sdk run --local
+```
+In another terminal
+```bash
+cd go-operator-demo
+oc apply -f deploy/crds/cakephp.example.com_v1alpha1_cakephp_cr.yaml
+```
+
 
 
 
