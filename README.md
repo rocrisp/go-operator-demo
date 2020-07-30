@@ -17,12 +17,14 @@ git clone https://github.com/rocrisp/go-operator-demo.git
 cd go-operator-demo
 OPERATOR_NAME=cakephp operator-sdk run --local
 ```
+
 In another terminal
 ```bash
 cd go-operator-demo
 oc apply -f deploy/crds/cakephp.example.com_v1alpha1_cakephp_cr.yaml
 ```
 
+![](test.gif)
 
 
 
