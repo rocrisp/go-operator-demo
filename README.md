@@ -18,7 +18,7 @@ git clone https://github.com/rocrisp/go-operator-demo.git
 cd go-operator-demo
 OPERATOR_NAME=cakephp operator-sdk run --local
 ```
-![](runoperatorsdk.gif)
+![](gif/runoperatorsdk.gif)
 
 In another terminal
 ```bash
@@ -28,10 +28,10 @@ oc apply -f deploy/crds/cakephp.example.com_v1alpha1_cakephp_cr.yaml
 oc get all
 ```
 
-![](createoperator.gif)
+![](gif/createoperator.gif)
 
 Operator in action
-![](Operator.gif)
+![](gif/Operator.gif)
 
 
 
