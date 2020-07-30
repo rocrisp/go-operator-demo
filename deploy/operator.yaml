@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: demo
+  template:
+    metadata:
+      labels:
+        name: demo
+    spec:
+      serviceAccountName: demo
+      containers:
+        - name: demo
+          # Replace this with the built image name
+          image: REPLACE_IMAGE
+          command:
+          - demo
+          imagePullPolicy: Always
+          env:
+            - name: WATCH_NAMESPACE
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.namespace
+            - name: POD_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: OPERATOR_NAME
+              value: "demo"

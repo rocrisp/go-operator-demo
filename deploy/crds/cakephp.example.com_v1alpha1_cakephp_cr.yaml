@@ -1,0 +1,8 @@
+apiVersion: cakephp.example.com/v1alpha1
+kind: Cakephp
+metadata:
+  name: example-cakephp
+spec:
+  # Add fields here
+  size: 3
+  title:  Welcome to Red Hat Operator Enablement Team Awesome !!!
