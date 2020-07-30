@@ -30,7 +30,6 @@ oc get all
 
 ![](gif/createoperator.gif)
 
-Operator in action
 ![](gif/Operator.gif)
 
 
