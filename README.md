@@ -5,8 +5,9 @@ openshift, kubernetes, go
 
 
 Requirements:
-Install [Golang] (https://golang.org/doc/install)
-Install [operator-sdk] (https://sdk.operatorframework.io/docs/install-operator-sdk/)
+Install [Golang](https://golang.org/doc/install)
+
+Install [operator-sdk](https://sdk.operatorframework.io/docs/install-operator-sdk/)
 
 openshift
 
