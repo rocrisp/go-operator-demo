@@ -17,6 +17,7 @@ git clone https://github.com/rocrisp/go-operator-demo.git
 cd go-operator-demo
 OPERATOR_NAME=cakephp operator-sdk run --local
 ```
+![](runoperatorsdk.gif)
 
 In another terminal
 ```bash
