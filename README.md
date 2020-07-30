@@ -13,6 +13,7 @@ Install [Openshift Container Platform 4.5](https://docs.openshift.com/container-
 
 Run Operator sdk locally
 ```bash
+oc project
 git clone https://github.com/rocrisp/go-operator-demo.git
 cd go-operator-demo
 OPERATOR_NAME=cakephp operator-sdk run --local
@@ -22,10 +23,12 @@ OPERATOR_NAME=cakephp operator-sdk run --local
 In another terminal
 ```bash
 cd go-operator-demo
+oc get pods
 oc apply -f deploy/crds/cakephp.example.com_v1alpha1_cakephp_cr.yaml
+oc get all
 ```
 
-![](test.gif)
+![](createoperator.gif)
 
 
 
