@@ -1,4 +1,4 @@
-module github.com/demo
+module github.com/rocrisp/go-operator-demo
 
 go 1.13
 

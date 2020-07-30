@@ -1,7 +1,7 @@
 package apis
 
 import (
-	"github.com/demo/pkg/apis/cakephp/v1alpha1"
+	"github.com/rocrisp/go-operator-demo/pkg/apis/cakephp/v1alpha1"
 )
 
 func init() {

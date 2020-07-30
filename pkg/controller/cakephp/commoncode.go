@@ -3,8 +3,8 @@ package cakephp
 import (
 	"context"
 
-	cakephpv1alpha1 "github.com/demo/pkg/apis/cakephp/v1alpha1"
 	routev1 "github.com/openshift/api/route/v1"
+	cakephpv1alpha1 "github.com/rocrisp/go-operator-demo/pkg/apis/cakephp/v1alpha1"
 
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"

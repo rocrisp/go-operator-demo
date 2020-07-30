@@ -13,9 +13,9 @@ import (
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
 	"k8s.io/client-go/rest"
 
-	"github.com/demo/pkg/apis"
-	"github.com/demo/pkg/controller"
-	"github.com/demo/version"
+	"github.com/rocrisp/go-operator-demo/pkg/apis"
+	"github.com/rocrisp/go-operator-demo/pkg/controller"
+	"github.com/rocrisp/go-operator-demo/version"
 
 	routev1 "github.com/openshift/api/route/v1"
 

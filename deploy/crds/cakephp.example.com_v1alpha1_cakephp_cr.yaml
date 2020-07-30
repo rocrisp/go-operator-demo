@@ -1,8 +1,8 @@
 apiVersion: cakephp.example.com/v1alpha1
 kind: Cakephp
 metadata:
-  name: example-cakephp
+  name: cakeapp
 spec:
   # Add fields here
-  size: 3
-  title:  Welcome to Red Hat Operator Enablement Team Awesome !!!
+  size: 2
+  title:  Openshift - Example of Go Operator with cakephp,mysql...

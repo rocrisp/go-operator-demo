@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"github.com/demo/pkg/controller/cakephp"
+	"github.com/rocrisp/go-operator-demo/pkg/controller/cakephp"
 )
 
 func init() {
